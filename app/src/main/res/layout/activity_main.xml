@@ -7,6 +7,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/main_amg_boy"
+        android:layout_alignEnd="@+id/main_amg_boy"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="268dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_strouke_white_press"
+        android:text="@string/start"
+        android:textColor="@color/black95" />
+
     <ImageView
         android:id="@+id/main_amg_bacground"
         android:layout_width="match_parent"
@@ -19,37 +34,14 @@
         android:layout_width="wrap_content"
         android:layout_height="195dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="92dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="238dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="531dp"
         app:srcCompat="@drawable/boy_menu" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/main_amg_boy"
-        android:layout_alignEnd="@+id/main_amg_boy"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-9dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="59dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn_start"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/btn_strouke_white_press"
-            android:layout_margin="10dp"
-            android:layout_marginStart="72dp"
-            android:layout_marginEnd="57dp"
-            android:layout_weight="1"
-            android:text="@string/start"
-            android:textColor="@color/black95"/>
-    </LinearLayout>
 
 
 </RelativeLayout>
